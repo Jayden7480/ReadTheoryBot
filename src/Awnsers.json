@@ -1284,7 +1284,9 @@
   "Jaime and Go-Go": {
     "What do Jaime and Go-Go like to do?": "have fun close to home",
     "How does Go-Go feel about climbing the mountain?": "nervous",
-    "Which of the following happens LAST in the story?": "Jaime and Go-Go head home."
+    "Which of the following happens LAST in the story?": "Jaime and Go-Go head home.",
+    "Why does Jaime decide to go on an adventure?": "He wants to do something exciting.",
+    "Why does Jaime decide that he does not want to climb the mountain today?": "He thinks that Go-Go does not want to climb the mountain."
   },
   "Painting Pictures": {
     "Which class is Jaime in during this passage?": "art class",
@@ -1647,7 +1649,8 @@
     "In this passage, we learn that as rain puddles get bigger and bigger, they finally": "overflow",
     "According to the passage, how long is the Mississippi River?": "2,320 miles long",
     "In paragraph 6, why does the author use the word home to describe the ocean?": "because most of the rainwater stays in the ocean for a very long time",
-    "Which detail is most important to the passage title, The Circle?": "The ocean water travels in a cloud back to the mountains."
+    "Which detail is most important to the passage title, The Circle?": "The ocean water travels in a cloud back to the mountains.",
+    "When something evaporates, it": "changes from a liquid to a gas"
   },
   "Plantimals": {
     "How does Sarah most likely feel about bugs?": "Bugs are gross.",
@@ -1903,5 +1906,112 @@
     "What is one way the anemone helps the clownfish?": "It helps the clownfish hide.",
     "What is one way the clownfish helps the anemone?": "It keeps the anemone clean.",
     "What kind of relationship do the clownfish and anemone share": "mutual, where both animals work together to help each other"
+  },
+  "Don't Feed the Ducks": {
+    "Based on information in the passage, which of the following is a healthy food for ducks to eat?": "bugs",
+    "As used paragraph 3, the word pollution means": "damage",
+    "According to the passage, ducks who are fed by humans": "forget how to find their own food",
+    "Which of the following is NOT a reason to stop feeding ducks bread?": "Bread is too expensive for ducks.",
+    "According to the passage, how can humans be kind to ducks?": "Pick up trash near duck ponds.",
+    "The passage says that people should drive with caution. This means they should drive": "carefully"
+  },
+  "Mouse or Rat?": {
+    "As used paragraph 1, the word unwelcome means": "not wanted",
+    "What is the main difference between mice and rats?": "their size",
+    "According to the passage, the average rat weighs as much as": "a can of soda",
+    "Most mice grow to be": "10 centimeters long",
+    "What is the main difference between mice's and rats' tails?": "Rats' tails have no hair.",
+    "According to the passage, which of the following is a reason why people don't want rats in their homes?": "They steal food."
+  },
+  "Salim's Mysterious Box": {
+    "Before they found the box, Salim and Asha were": "playing soccer",
+    "The words on the box are \n\n\nI.\u00a0\u00a0\u00a0\u00a0\u00a0white\n\nII.\u00a0\u00a0\u00a0\u00a0hard to read\n\nIII.\u00a0\u00a0\u00a0red": "III only",
+    "Why does Salim not want to open the box?": "The words on the box say that they should not open it.",
+    "Which of the following pairs of words from the story have the same meaning?": "investigate and inspect",
+    "Which of the following sentences best describes Salim at the end of the story?": "He is afraid of what might happen next.",
+    "Which of the following choices shows events from the story in the correct order? ": "Salim chases after a ball, Salim reads words on the box, Asha tries to open the box",
+    "Which of the following best explains the main difference between Salim and Asha?": "Asha is more curious than Salim and Salim is more careful than Asha."
+  },
+  "Megan Swims": {
+    "As used in paragraph 1, the OPPOSITE of shallow is": "deep",
+    "What does Megan learn in paragraph 2?": "She learns to not be afraid.",
+    "What does Megan think about the dog paddle?": "It is silly but helpful.",
+    "Read the following paragraph. Then answer the question below.\nFinally, Megan puts it all together. She is not afraid of the water. She can float. And she can push the water with her hands. Megan is a quick learner!\nIf added to the passage, where would this paragraph fit best?": "at the end"
+  },
+  "Giants of the Sea": {
+    "Which of these is bigger than a blue whale?": "none of the above",
+    "According to the passage, a blue whale\u2019s heart is the size of": "a small van",
+    "The passage says that a person could": "swim through the blue whale's veins",
+    "As used in paragraph 3, the word gigantic means": "very big",
+    "Why is it surprising that blue whales only eat krill?": "krill are very small",
+    "What is the main idea of the final paragraph? ": "Blue whales need to be protected from humans.",
+    "The passage does NOT talk about": "how far blue whales can swim"
+  },
+  "Thank a Plant": {
+    "After reading this passage, we can understand that which of the following things DOES NOT come from plants?": "gasoline",
+    "Read the following sentence. Then answer the question below.\n\nAlthough it may seem strange, foods like beef, pork, and tuna all come from plants.\n\nIf added to the passage, in which section would this sentence fit best?": "Plants Give Us Food",
+    "In the section titled, Plants Give Us Paper, the author says, You write on paper, read things written on paper, and put things in paper bags. You may even clean up a mess with paper towels. Which of the author's claims is this information intended to support?": "\"You probably use paper every day.\"",
+    "In the section titled, Plants Give Us Oxygen, the author writes, That's why plants are so necessary. Based on how it is used in this paragraph, we can understand that the word necessary belongs to of the following word groups?": "important, critical, major",
+    "The author of this passage wants readers to": "know that we use things made by plants every day"
+  },
+  "Iceland's Natural Wonders": {
+    "About how many people live in Iceland?": "330,000",
+    "According to the passage, most Icelanders live near": "the coast",
+    "As used paragraph 2, the word geyser means": "a hot spring that shoots water",
+    "According to the passage, what does NOT happen in the sky over Iceland?": "Huge flocks of birds block the sun.",
+    "Read the following sentence. Then answer the question below.\n\u201cThese beautiful nighttime colors are also called the Northern Lights.\u201d\nIf added to this passage, where would this sentence fit best?": "paragraph 3",
+    "According to the passage, what happens in Iceland in every summer?": "The sun can be seen at midnight."
+  },
+  "Tom Packs": {
+    "Where is Tom going?": "summer camp",
+    "In paragraph 3 the word essential most nearly means": "necessary",
+    "What does Tom pack right after he packs his toothpaste?": "his wallet",
+    "What color is Tom's lucky hat?": "red",
+    "Judging by the books Tom packs, we can understand that he likes to read about people who are": "smart",
+    "This passage is mostly about": "the things Tom packs"
+  },
+  "Greyhounds": {
+    "As used paragraph 1, the word slender means": "skinny",
+    "Greyhounds are well known for their": "speed",
+    "The passage describes greyhounds as": "intelligent, quiet, and gentle",
+    "As used paragraph 3, the word aggressive means": "ready for a fight",
+    "According to the passage, greyhounds sleep": "most of the day",
+    "Which of the following is NOT a reason why greyhounds make good pets?": "They are hyperactive."
+  },
+  "A Rainy Day Idea": {
+    "Alice is upset because": "the rain has ruined her plans",
+    "In paragraph 9, Alice says: \u201cSave your breath, Sasha.\u201d The phrase \u201csave your breath\u201d most nearly means": "don\u2019t waste your time talking because I have already made up my mind",
+    "How does Sasha seem to feel about the way Alice solves her problem?": "happy",
+    "Why does Sasha give Alice sunglasses at the end of the passage?": "she is pretending that they are at the beach",
+    "Based on the passage, which of the following statements about Sasha and Alice is true?": "Sasha tries to make the best of a bad situation."
+  },
+  "Before You Go": {
+    "The author wrote this passage mostly to": "give instructions about how to run safely",
+    "In addition to runners, who else should probably wear reflective clothing?": "road workers",
+    "In which paragraph does the author talk about running shoes?": "paragraph 3",
+    "Which shoes are probably NOT good for running long distances?\n\nI.\u00a0\u00a0\u00a0\u00a0\u00a0boots\n\nII.\u00a0\u00a0\u00a0\u00a0slippers\n\nIII.\u00a0\u00a0\u00a0sandals\n": "I, II, and III",
+    "In paragraph 4, the author writes, If you drink lots of water, you can make sure that you do not get dehydrated. As used by the author, which person is dehydrated?": "Arnold, who sweats all day without anything to drink."
+  },
+  "Last Names, Different Traditions": {
+    "What is the main idea of this passage?": "Traditions about last names are different.",
+    "Based on its use in paragraph 2, typical most nearly means": "common",
+    "Read the following sentence. Then answer the question below.\n\u201cFor example, women in Korea usually never change their names.\u201d\nIf added to this passage, where would this sentence fit best?": "paragraph 3",
+    "Read the following sentence. Then answer the question below.\n\u201cFor example, most Japanese women take their husbands\u2019 last names.\u201d\nIf added to this passage, where would this sentence fit best?": "paragraph 2",
+    "In Iceland, most people\u2019s last names are based on": "their parents\u2019 first names",
+    "Which of the following is NOT a naming tradition mentioned in the passage?": "Children choose their own last names."
+  },
+  "Butterflies": {
+    "What kind of animal is the butterfly?": "Butterflies are insects.",
+    "As used in paragraph 1, what does famous mean?": "well-known",
+    "Which of these is NOT listed in the passage as a color that butterfly wings can be?": "grey",
+    "Why does this passage mention a car?": "to explain how butterfly wings fade",
+    "Using the passage as a guide, where would a butterfly PROBABLY live?": "Hawaii, where it is warm and humid"
+  },
+  "Carpet Shopping": {
+    "In which room will the new carpet go?": "It will go in the living room.",
+    "According to the passage, the pink and purple carpet": "has dots",
+    "Mary thinks the carpet with red and green stripes is too": "small",
+    "BOTH Mary AND Dan like the": "tan carpet",
+    "Which word best describes the carpet store?": "extensive, because it has a great number"
   }
 }
