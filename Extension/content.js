@@ -8,12 +8,12 @@ function GetAwnser() {
   let Awnser = ''
   try {
     // console.log(document.getElementsByClassName('marked')[0].document.getElementsByClassName('answer-card__body')[0].innerHTML)
-    Awnser =  document.getElementsByClassName('answer-card__mark')[0].parentElement.innerHTML;
+    Awnser =  document.getElementsByClassName('answer-card__mark')[0].parentElement.getElementsByClassName('answer-card__body')[0].innerText;
   } catch {}
 
   if (Awnser == '') {
     try {
-      Awnser = document.getElementsByClassName('marked')[0].parentElement.innerHTML
+      Awnser = document.getElementsByClassName('marked')[0].getElementsByClassName('answer-card__body')[0].innerText
     } catch {}
   }
 
