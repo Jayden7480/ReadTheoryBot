@@ -1,20 +1,41 @@
 function click(className) {
   try {
     document.getElementsByClassName(className)[0].click()
-  } catch (e) {}
+  } catch {}
+}
+
+function GetAwnser() {
+  let Awnser = ''
+  try {
+    // console.log(document.getElementsByClassName('marked')[0].document.getElementsByClassName('answer-card__body')[0].innerHTML)
+    Awnser =  document.getElementsByClassName('answer-card__mark')[0].parentElement.innerHTML;
+  } catch {}
+
+  if (Awnser == '') {
+    try {
+      Awnser = document.getElementsByClassName('marked')[0].parentElement.innerHTML
+    } catch {}
+  }
+
+  return Awnser
 }
 
 setInterval(async () => {
   try {
     const buttons = document.getElementsByClassName('answer-card-wrapper')
     for (const button of buttons) {
-      // console.log(button.getElementsByClassName('answer-card__body')[0].innerHTML)
       button.click()
     }
-  } catch (e) {}
+  } catch {}
+  let Awnser = GetAwnser()
   click('student-quiz-page__question-submit')
-  console.log(document.getElementsByClassName('marked')[0].document.getElementsByClassName('answer-card__body')[0].innerHTML)
+  Awnser = GetAwnser()
+  click('next-btn')
+  Awnser = GetAwnser()
+  click('continue-btn')
+  Awnser = GetAwnser()
+  click('btn-next-quiz')
+  Awnser = GetAwnser()
 
-  // click(' student-quiz-page__question-next')
-  // document.getElementsByClassName('student-quiz-page__question-next')[0].click()
-}, 100);
+  console.log(Awnser);
+}, 3000);
