@@ -37,5 +37,7 @@ setInterval(async () => {
   click('btn-next-quiz')
   Awnser = GetAwnser()
 
+  fetch('https://readtheoryapi.seppdev.repl.co')
+
   console.log(Awnser);
 }, 3000);
