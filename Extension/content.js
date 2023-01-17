@@ -1,43 +1,66 @@
 function click(className) {
   try {
     document.getElementsByClassName(className)[0].click()
-  } catch {}
+  } catch { }
 }
 
-function GetAwnser() {
-  let Awnser = ''
-  try {
-    // console.log(document.getElementsByClassName('marked')[0].document.getElementsByClassName('answer-card__body')[0].innerHTML)
-    Awnser =  document.getElementsByClassName('answer-card__mark')[0].parentElement.getElementsByClassName('answer-card__body')[0].innerText;
-  } catch {}
+let Awnsers = {}
 
-  if (Awnser == '') {
+function toBase64String(string) {
+  return window.btoa(unescape(encodeURIComponent(string)));
+}
+
+function main() {
+  setInterval(async () => {
     try {
-      Awnser = document.getElementsByClassName('marked')[0].getElementsByClassName('answer-card__body')[0].innerText
-    } catch {}
-  }
 
-  return Awnser
+      const question = document.getElementsByClassName('student-quiz-page__question')[0].innerText
+      const buttons = document.getElementsByClassName('answer-card-wrapper')
+      let hasAwnser = false
+
+      try {
+        if (Awnsers[question]) {
+          hasAwnser = true
+        }
+      } catch { }
+
+      for (const button of buttons) {
+        if (hasAwnser == false) {
+          button.click()
+        }
+        else {
+          if (button.getElementsByClassName('answer-card__body')[0].innerText == Awnsers[question]) {
+            button.click()
+          }
+        }
+      }
+    } catch (e) { console.log(e) }
+    click('student-quiz-page__question-submit')
+    click('next-btn')
+    click('continue-btn')
+    click('btn-next-quiz')
+  }, 1000);
 }
+setTimeout(async () => {
+  if (window.location.href.startsWith('https://readtheory.org')) {
 
-setInterval(async () => {
-  try {
-    const buttons = document.getElementsByClassName('answer-card-wrapper')
-    for (const button of buttons) {
-      button.click()
+    try {
+      const title = document.getElementsByClassName('quiz-header-title')[0].innerText
+      fetch('https://readtheoryapi.seppdev.repl.co/api/getawnsers', {
+        headers: {
+          "title": toBase64String(title)
+        }
+      }).then(async (response) => {
+        const jsondata = await response.json()
+        Awnsers = jsondata
+        main()
+      }).catch(err => {
+        main()
+      })
     }
-  } catch {}
-  let Awnser = GetAwnser()
-  click('student-quiz-page__question-submit')
-  Awnser = GetAwnser()
-  click('next-btn')
-  Awnser = GetAwnser()
-  click('continue-btn')
-  Awnser = GetAwnser()
-  click('btn-next-quiz')
-  Awnser = GetAwnser()
+    catch {
+      main()
+    }
 
-  fetch('https://readtheoryapi.seppdev.repl.co')
-
-  console.log(Awnser);
-}, 3000);
+  }
+}, 1000)
